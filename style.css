@@ -1,0 +1,369 @@
+/*NAVBAR*/
+.nav-item a {
+    color: white;
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.nav-link:hover {
+    color: green !important;
+}
+
+.navbar-brand{
+    color: white !important;
+    letter-spacing: 0.5rem;
+}
+
+.navbar-brand:hover{
+    color: green !important;
+}
+
+/*NAVBAR*/
+
+/*About Me*/
+.image-section {
+    background: url(images/matrixEnes4.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me{
+    background: rgba(0, 0, 0, 0.77);
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    
+}
+
+.about-me h1, h2 {
+    color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    font-family:monospace;
+   
+}
+
+/*ANIMATIONS*/
+
+.headerr{
+    font-size: 2.55em;
+    border-right: 5px solid;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+    typing 2s steps(21),
+    cursor .4s step-end infinite alternate;
+    
+}
+
+/*cursor blinking*/
+@keyframes cursor {
+    50% {border-color:transparent;}
+}
+/*cursor blinking*/
+
+/*typing effect*/
+@keyframes typing {
+    from{width: 0;}
+}
+/*typing effect*/
+
+.name-animation{
+    border-right: 5px solid;
+    width: 56%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+    typing 2s steps(14),
+    cursor .4s step-end infinite alternate;
+    animation-delay: 2s;
+}
+
+@keyframes cursor {
+    50% {border-color:transparent;}
+}
+/*cursor blinking*/
+
+/*typing effect*/
+@keyframes typing {
+    from{width: 0;}
+}
+
+.occupation-animation-one{
+    border-right: 5px solid;
+    width: 67%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+    typing 2s steps(18),
+    cursor .4s step-end infinite alternate;
+    animation-delay: 4s;
+}
+
+.occupation-animation-two{
+    border-right: 5px solid;
+    width: 52%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+    typing 2s steps(18),
+    cursor .4s step-end infinite alternate;
+    animation-delay: 6s;
+}
+
+/*ANIMATIONS END*/
+
+
+
+@media (max-width:976px) {
+    .about-me{
+        background: rgba(0, 0, 0, 0.77);
+        height: 15rem;
+        width: 20rem;
+        
+    }
+
+    .headerr {
+        font-size: 1.7em;
+    }
+
+    .name-animation {
+        width: 67%;
+    }
+
+    .occupation-animation-one{
+        width: 80%;
+    }
+
+    .occupation-animation-two{
+        width: 63%;
+    }
+
+    .image-section{
+        background: url(images/matrixEnes3.jpg);
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: repeat;
+        background-size: contain;
+        height: 32rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width:676px) {
+    .image-section{
+        background: url(images/matrixEnes3.jpg);
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: repeat;
+        background-size: contain;
+        height: 32rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+}
+/*About Me*/
+
+/*Quotes*/
+.second-p{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.quotes{
+   padding: 5rem;
+    width: 60%;
+    text-align: center;
+}
+
+.quotes h4{
+    text-align: right;
+    font-family: 'Allura', cursive;
+    text-transform: uppercase;
+}
+
+.quotes p{
+    text-align: center;
+    font-family: 'Allura', cursive;
+   
+}
+
+
+@media (max-width:1076px) {
+    .quotes{
+        width: 80%;
+     }
+}
+
+/*Quotes End*/
+
+/*My skills*/
+.tech-stack-title{
+    background: url(images/SkillsSection.jpg);
+    background-attachment: fixed;
+    height: 40vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tech-stack-title h2{
+    font-size: 90px;
+    color: white;
+    font-family: cinzel, Georgia, serif;
+}
+
+.tools img {
+    transition: transform 0.3s ease-in-out; /*speed of process*/
+  }
+  
+  .tools img:hover {
+    transform: scale(1.1); /*makes it 10% bigger*/
+  }
+
+/*My skills end*/
+
+/*My Projects*/
+.projects {
+    background: url(images/techSkills.jpg);
+    background-attachment: fixed;
+    height: 40vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.projects h2{
+    font-size: 90px;
+    color: black;
+    font-family: cinzel, Georgia, serif;
+}
+
+h3 {
+    font-family: monospace;
+    letter-spacing: 0.2rem;
+}
+
+/*My Projects End*/
+
+/*Success*/
+.success-section h4{
+    font-family: 'Allura', cursive;
+}
+
+.redpill svg{
+    color: red;
+}
+
+.redpill{
+    text-align: center;
+}
+
+.redpill h5, .redpill p{
+    font-family: 'Allura', cursive;
+}
+
+.matrix svg{
+    border: 1px solid green;
+    padding: 0.1rem;
+}
+
+.matrix{
+    text-align: center;
+}
+
+.matrix svg:hover{
+    color: green;
+}
+
+.matrix h5, .matrix p{
+    font-family: 'Allura', cursive;
+}
+
+.rabbit h5, .rabbit p{
+    font-family: 'Allura', cursive;
+}
+
+.rabbit{
+    text-align: center;
+}
+/*Success end*/
+
+/*FOOTER*/
+.footer-section{
+    background: url(images/matrix2.jpg);
+    height: 50vh;
+    width: 45rem;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media {
+    background: rgba(0, 0, 0, 0.77);
+    height: 35vh;
+    width: 25rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-media p {
+    width: 80%;
+    color: green;
+    margin-bottom: 2rem;
+    font-family: monospace;
+}
+
+.social-media svg{
+    color: green;
+    margin-top: 3.5rem;
+}
+
+.social-media a svg:nth-child(1):hover{
+    color: #0a66c2;
+}
+
+.yt:hover{
+    color: red!important;
+}
+
+.github:hover{
+    color: white!important;
+}
+
+.instagram:hover{
+    background: linear-gradient(#f90f5b, #ed07c9, #fbb208)!important;
+}
+
+.container-fluid, .footer-section{
+    width: 100%!important;
+    padding: 0!important;
+}
+/*FOOTER*/
